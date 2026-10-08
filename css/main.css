@@ -1352,6 +1352,7 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   display: block;
+  width: 160%;
 }
 .about-text {
   margin-top: 30px;
