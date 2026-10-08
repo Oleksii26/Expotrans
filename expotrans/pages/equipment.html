@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        ІННОВАЦІЙНІ КОМПОЗИТНІ РІШЕННЯ, ЩО ФОРМУЮТЬ НОВІ СТАНДАРТИ ІНЖЕНЕРІЇ
+    </title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="overlay">
+        <form class="overlay-form ajax-form">
+            <svg class="close" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <rect y="1.6515" width="2.33557" height="42.0422" transform="rotate(-45 0 1.6515)"
+                    fill="currentColor" />
+                <rect x="1.65137" y="31.3798" width="2.33557" height="42.0422" transform="rotate(-135 1.65137 31.3798)"
+                    fill="currentColor" />
+            </svg>
+            <div class="overlay-form-communication d-none">
+                <h3 class="overlay-title title overlay-title-ask d-none" data-key="form_title1">Маєте питання?</h3>
+                <h3 class="overlay-title title overlay-title-order d-none" data-key="form_title2">Замовити послугу</h3>
+                <p class="overlay-title-sub" data-key="form_sub_title">Залиште Ваші контакти і ми зв’яжемось з Вами</p>
+                <div class="overlay-input-box">
+                    <input type="text" name="website" style="display:none">
+                    <input data-key="form_name" class="overlay-input" name="name" required="" placeholder="Ваше ПІБ"
+                        type="text">
+                    <input data-key="form_number" class="overlay-input" name="phone" minlength="10" required=""
+                        placeholder="Номер телефону*" type="text">
+                    <input data-key="form_message" class="overlay-input" name="message" placeholder="Повідомлення"
+                        type="text">
+                </div>
+                <p data-key="form_text" class="overlay-text">* Обов’язково має бути встановлений додаток WhatsApp за
+                    вказаним номером
+                    телефону</p>
+                <button data-key="form_button" class="btn send-btn">Відправити</button>
+            </div>
+
+            <div class="overlay-form-thanks d-none">
+                <h3 data-key="form_thanks" class="overlay-form-thanks-title title success">ДЯКУЄМО!</h3>
+                <h3 data-key="form_error" class="overlay-form-thanks-title title error-message thanks-error">На жаль,
+                    сталася помилка</h3>
+                <p data-key="form_success" class="overlay-form-thanks-text success">Ваші контакти успішно надіслано</p>
+                <p data-key="form_repeat" class="overlay-form-thanks-text error-message thanks-error">Спробуйте ще раз
+                </p>
+                <button class="btn thanks-btn">ок</button>
+            </div>
+
+        </form>
+    </div>
+    <header class="header">
+        <div class="header-box">
+            <div class="header-container">
+                <a href="../index.html"><img class="header-logo" src="../img/logo.svg" alt="logo"></a>
+                <nav class="nav" id="nav">
+                    <div class="nav-box">
+                        <a class="nav-link" data-key="header_about" href="/#about">ПРО НАС</a>
+                        <a class="nav-link" data-key="header_services" href="/#services">ПОСЛУГИ</a>
+                        <a class="nav-link" data-key="header_stages" href="/#etaps">ЕТАПИ ВИРОБНИЦТВА</a>
+                        <a class="nav-link" data-key="header_contacts" href="/#contacts">КОНТАКТИ</a>
+                    </div>
+                    <div class="nav-mob-btns">
+
+                        <button class="lang-switch mob">
+                            <span class="label ua">UA</span>
+                            <span class="label en">EN</span>
+                            <span class="knob"></span>
+                        </button>
+                        <button data-key="header_btn" class="btn btn-header-m ask-question">ЗВ’ЯЗАТИСЯ З НАМИ</button>
+                    </div>
+                </nav>
+                <div class="burger" id="burger">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <button class="lang-switch desk">
+                <span class="label ua">UA</span>
+                <span class="label en">EN</span>
+                <span class="knob"></span>
+            </button>
+            <button data-key="header_btn" class="btn btn-header-d ask-question">ЗВ’ЯЗАТИСЯ З НАМИ</button>
+        </div>
+    </header>
+    <main>
+        <section class="equipment_hero">
+            <div class="wrapper">
+                <div class="crumbs">
+                    <a class="crumbs-prev" data-key="crumbs_home" href="../index.html">Головна</a> /
+                    <a class="crumbs-current" data-key="equipment" href="./equipment.html">Обладнання</a>
+                </div>
+                <div>
+                    <h2 class="equipment_hero-title title" data-key="equip_title">Обладнання
+                        EXPOTRANS</h2>
+                    <p class="equipment_hero-text"><span data-key="equip_sub_title1">Наявність</span> <span
+                            data-key="equip_sub_title2" class="colored"> власної інженерно-конструкторської
+                            бази</span> <span data-key="equip_sub_title3">дозволяє підприємству
+                            не лише експлуатувати обладнання, а й самостійно
+                            виготовляти та програмувати великогабаритні верстати під конкретні виробничі процеси.</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="equipment_catalog section-dark">
+            <div class="wrapper">
+                <div class="equipment_catalog-el">
+                    <span class="equipment_catalog-el-num title">01</span>
+                    <h3 class="equipment_catalog-el-title" data-key="equip1_title">Намотувальний станок для композитних
+                        виробів</h3>
+                    <div class="equipment_catalog-el-box">
+                        <p class="equipment_catalog-el-text" data-key="equip1_text">Призначений для роботи з карбоновим
+                            або склоровінгом.</p>
+                        <h4 class="equipment_catalog-el-title-sub colored" data-key="equip1_sub_title"> використовується
+                            для:</h4>
+                        <ul class="equipment_catalog-el-list">
+                            <li class="item-arrow equipment_catalog-el-item" data-key="equip1_item1">намотування
+                                армуючих волокон</li>
+                            <li class="item-arrow equipment_catalog-el-item" data-key="equip1_item2">локального
+                                підсилення конструкцій.</li>
+                        </ul>
+                    </div>
+                    <div class="equipment_catalog-el-img">
+                        <img src="../img/equip/el11.jpg" alt="equipment">
+                    </div>
+                </div>
+                <div class="equipment_catalog-el">
+                    <span class="equipment_catalog-el-num title">02</span>
+                    <h3 class="equipment_catalog-el-title" data-key="equip2_title">Фрезерні трьох та
+                        чотирьох-координатні ЧПУ</h3>
+                    <div class="equipment_catalog-el-box">
+                        <p data-key="equip2_text1">Станки для механічної обробки складних геометричних форм
+                            стаціонарним та обертовим методом.</p>
+                        <h4 class="equipment_catalog-el-title-sub colored" data-key="equip2_sub_title"> Габаритні
+                            можливості обладнання:</h4>
+                        <ul class="equipment_catalog-el-list">
+                            <li class="item-arrow equipment_catalog-el-item" data-key="equip2_item1">робоча зона: 2100 ×
+                                5100 мм</li>
+                            <li class="item-arrow equipment_catalog-el-item" data-key="equip2_item2">висота обробки: 450
+                                мм</li>
+                            <li class="item-arrow equipment_catalog-el-item" data-key="equip2_item3">максимальний
+                                діаметр деталі при обробці
+                                обертових форм: до 900 мм</li>
+                        </ul>
+                        <p data-key="equip2_text2">Таке обладнання дає змогу обробляти як площинні, так і просторово
+                            складні деталі з високою
+                            точністю.</p>
+                    </div>
+                    <div class="equipment_catalog-el-img">
+                        <div class="equipment_catalog-el-img-box">
+                            <img src="../img/equip/el21.jpg" alt="equipment">
+                        </div>
+                        <div class="equipment_catalog-el-img-box">
+                            <img src="../img/equip/el22.jpg" alt="equipment">
+                        </div>
+                    </div>
+                </div>
+                <div class="equipment_catalog-el">
+                    <span class="equipment_catalog-el-num title">03</span>
+                    <h3 class="equipment_catalog-el-title" data-key="equip3_title">Власний парк ЧПУ-станків для обробки
+                        пінополістирольних
+                        матеріалів</h3>
+                    <div class="equipment_catalog-el-box">
+                        <p data-key="equip3_text">Обладнання налаштовується під конкретні задачі виробництва та
+                            забезпечує точне формування
+                            геометрії для подальшої
+                            доробки або інтеграції в композитні конструкції.</p>
+                    </div>
+                    <div class="equipment_catalog-el-img">
+                        <img src="../img/equip/el3.jpg" alt="equipment">
+                    </div>
+                </div>
+                <div class="equipment_catalog-el">
+                    <span class="equipment_catalog-el-num title">04</span>
+                    <h3 class="equipment_catalog-el-title" data-key="equip4_title">Лазерні ЧПУ-станки для різання фанери
+                    </h3>
+                    <div class="equipment_catalog-el-box">
+                        <h4 class="equipment_catalog-el-title-sub colored" data-key="equip4_sub_title">Обладнання
+                            використовується для:</h4>
+                        <ul class="equipment_catalog-el-list">
+                            <li class="item-arrow equipment_catalog-el-item" data-key="equip4_item1">виробництва
+                                допоміжної оснастки
+                                конструктивних елементів</li>
+                            <li class="item-arrow equipment_catalog-el-item" data-key="equip4_item2">монтажних елементів
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="equipment_catalog-el-img">
+                        <img src="../img/equip/el4.jpg" alt="equipment">
+                    </div>
+                </div>
+                <div class="equipment_catalog-el">
+                    <span class="equipment_catalog-el-num title">05</span>
+                    <h3 class="equipment_catalog-el-title" data-key="equip5_title">Токарні верстати</h3>
+                    <div class="equipment_catalog-el-box">
+                        <h4 class="equipment_catalog-el-title-sub colored" data-key="equip1_sub_title">використовують
+                            для:</h4>
+                        <ul class="equipment_catalog-el-list">
+                            <li class="item-arrow equipment_catalog-el-item" data-key="equip5_item1">механічної обробки
+                                металевих елементів</li>
+                            <li class="item-arrow equipment_catalog-el-item" data-key="equip5_item2">алюмінієвих та
+                                інших конструктивних
+                                компонентів</li>
+                            <li class="item-arrow equipment_catalog-el-item" data-key="equip5_item3">підготовки вставок,
+                                втулок, кріпильних і
+                                допоміжних елементів</li>
+                        </ul>
+                        <p data-key="equip5_text">Це обладнання дає можливість закривати частину супутніх механічних
+                            задач власними силами без
+                            передачі на стороннє
+                            виробництво.</p>
+                    </div>
+                    <div class="equipment_catalog-el-img">
+                        <img src="../img/equip/el5.jpg" alt="equipment">
+                    </div>
+                </div>
+                <div class="equipment_catalog-el">
+                    <span class="equipment_catalog-el-num title">06</span>
+                    <h3 class="equipment_catalog-el-title" data-key="equip6_title">Термопечі для полімеризації</h3>
+                    <div class="equipment_catalog-el-box">
+                        <p data-key="equip6_text1">Підприємство оснащене великогабаритними термопечами для полімеризації
+                            композитних виробів:
+                        </p>
+                        <h4 class="equipment_catalog-el-title-sub colored" data-key="equip6_sub_title1">Піч №1</h4>
+                        <ul class="equipment_catalog-el-list">
+                            <li class="item-arrow equipment_catalog-el-item" data-key="equip6_item11">габарити: 9160 ×
+                                24480 × 2300 мм</li>
+                            <li class="item-arrow equipment_catalog-el-item" data-key="equip6_item12">гранична
+                                температура: до 80°C</li>
+                            <li class="item-arrow equipment_catalog-el-item" data-key="equip6_item13">теплова
+                                потужність: 67,5 кВт</li>
+                        </ul>
+                        <h4 class="equipment_catalog-el-title-sub colored" data-key="equip6_sub_title2">Піч №2</h4>
+                        <ul class="equipment_catalog-el-list">
+                            <li class="item-arrow equipment_catalog-el-item" data-key="equip6_item21">габарити: 9160 ×
+                                12300 × 2300 мм</li>
+                            <li class="item-arrow equipment_catalog-el-item" data-key="equip6_item22">гранична
+                                температура: до 160°C</li>
+                            <li class="item-arrow equipment_catalog-el-item" data-key="equip6_item23">теплова
+                                потужність: 67,5 кВт</li>
+                        </ul>
+                        <h4 class="equipment_catalog-el-title-sub colored" data-key="equip6_sub_title3">Додаткові печі
+                        </h4>
+                        <div class="equipment_catalog-el-box-paragraph">
+                            <p data-key="equip6_text21">Окрім великогабаритних камер, підприємство має 4 додаткові печі
+                                6 × 6 м, які можуть
+                                використовуватися для обробки менших
+                                виробів та вузлів.</p>
+                            <p><strong data-key="equip6_text22">Можливість термічних процесів спеціального призначення.
+                                </strong> </p>
+                            <p data-key="equip6_text23">
+                                Наявне обладнання та компетенція персоналу дозволяє виконувати не лише полімеризацію
+                                композитних виробів, а й, за
+                                потреби, застосовувати процеси вулканізації для виробів і вузлів, де це передбачено
+                                технічними вимогами проєкту.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="equipment_catalog-el-img">
+                        <div class="equipment_catalog-el-img-box">
+                            <img src="../img/equip/el61.jpg" alt="equipment">
+                        </div>
+                        <div class="equipment_catalog-el-img-box">
+                            <img src="../img/equip/el62.jpg" alt="equipment">
+                        </div>
+                    </div>
+                </div>
+                <div class="equipment_catalog-el">
+                    <span class="equipment_catalog-el-num title">07</span>
+                    <h3 class="equipment_catalog-el-title" data-key="equip7_title">Вакуумні та спеціалізовані
+                        технологічні системи</h3>
+                    <div class="equipment_catalog-el-box-paragraph">
+                        <p data-key="equip7_text1">Підприємство оснащене комплексом вакуумного обладнання для реалізації
+                            процесів вакуумної
+                            формовки композитних виробів.</p>
+
+                        <p><span data-key="equip7_text2">До складу систем входять</span>
+                            <span class="colored"><strong data-key="equip7_text3">вакуумні насоси, магістралі, елементи
+                                    автоматики</strong></span>
+                            <span data-key="equip7_text4">допоміжне оснащення для формування вакуумного пакета,
+                                створення контрольованого розрідження та стабільного супроводу процесу
+                                полімеризації.</span>
+                        </p>
+                        <p><span data-key="equip7_text5">Окремим напрямом інженерних компетенцій підприємства є
+                                можливість розробки та виготовлення</span>
+                            <span class="colored"><strong data-key="equip7_text6">автоклавного
+                                    обладнання</strong></span>. <span data-key="equip7_text7"> На
+                                поточному етапі у серійному виробничому процесі цей метод не використовується, однак
+                                наявна
+                                інженерна та виробнича база
+                                дозволяє опрацьовувати рішення у сфері автоклавних систем.</span>
+                        </p>
+
+                    </div>
+                    <div class="equipment_catalog-el-img">
+                        <img src="../img/equip/el7.jpg" alt="equipment">
+                    </div>
+                </div>
+                <div class="equipment_catalog-el">
+                    <span class="equipment_catalog-el-num title">08</span>
+                    <h3 class="equipment_catalog-el-title" data-key="equip8_title">Малярні камери</h3>
+                    <div class="equipment_catalog-el-box">
+                        <p data-key="equip8_text">
+                            Використовуються для нанесення двох-компонентних композитних фінішних покриттів.
+                        </p>
+                    </div>
+                    <div class="equipment_catalog-el-img">
+                        <img src="../img/equip/el8.jpg" alt="equipment">
+                    </div>
+                </div>
+                <div class="equipment_catalog-el">
+                    <span class="equipment_catalog-el-num title">09</span>
+                    <h3 class="equipment_catalog-el-title" data-key="equip9_title">Власна дільниця 3D-друку</h3>
+                    <div class="equipment_catalog-el-box">
+                        <h4 class="equipment_catalog-el-title-sub colored" data-key="equip9_sub_title">50 принтерів, що
+                            використовується для:</h4>
+                        <ul class="equipment_catalog-el-list">
+                            <li class="item-arrow equipment_catalog-el-item" data-key="equip9_item1">виготовлення
+                                допоміжних елементів</li>
+                            <li class="item-arrow equipment_catalog-el-item" data-key="equip9_item2">друку вузлів,
+                                вставок</li>
+                        </ul>
+                        <p data-key="equip9_text">
+                            Наявність власного 3D-друку скорочує цикл підготовки виробництва та підвищує гнучкість у
+                            реалізації нестандартних
+                            технічних рішень.
+                        </p>
+                    </div>
+                    <div class="equipment_catalog-el-img">
+                        <img src="../img/equip/el9.jpg" alt="equipment">
+                    </div>
+                </div>
+                <div class="equipment_catalog-el">
+                    <span class="equipment_catalog-el-num title">10</span>
+                    <h3 class="equipment_catalog-el-title" data-key="equip10_title">3D-сканери та reverse engineering
+                    </h3>
+                    <div class="equipment_catalog-el-box">
+                        <h4 class="equipment_catalog-el-title-sub colored" data-key="equip10_sub_title">У виробничому
+                            циклі застосовуються
+                            3D-сканери, що дають змогу:</h4>
+                        <ul class="equipment_catalog-el-list">
+                            <li class="item-arrow equipment_catalog-el-item" data-key="equip10_item1">оцифровувати
+                                наявні вироби та геометрично
+                                складні об’єкти</li>
+                            <li class="item-arrow equipment_catalog-el-item" data-key="equip10_item2">виконувати reverse
+                                engineering</li>
+                            <li class="item-arrow equipment_catalog-el-item" data-key="equip10_item3">відтворювати
+                                геометрію для подальшого
+                                проєктування, масштабування або виготовлення оснастки</li>
+                        </ul>
+                        <p> <span data-key="equip10_text1">Це особливо важливо при роботі з</span>
+                            <span class="colored"><strong data-key="equip10_text2">великогабаритними</strong></span>
+                            <span data-key="equip10_text3">або</span> <span class="colored"><strong
+                                    data-key="equip10_text4">складнопрофільними деталями</strong></span><span
+                                data-key="equip10_text5">, які
+                                можуть бути відтворені через
+                                поділ на окремі секції з подальшим збиранням в єдиний об’єкт.</span>
+                        </p>
+                    </div>
+                    <div class="equipment_catalog-el-img">
+                        <img src="../img/equip/el10.jpg" alt="equipment">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacts" class="question section-dark">
+            <div class="wrapper">
+                <div class="question-box">
+                    <img src="../img/question_bg.png" alt="mold for making a drone">
+                    <div>
+                        <h2 class="question-title title" data-key="form_title1">Маєте питання?</h2>
+                        <p class="question-title-sub" data-key="form_sub_title">Залиште Ваші контакти і ми зв’яжемось з
+                            Вами</p>
+                        <form class="question-form ajax-form">
+                            <input data-key="form_website" type="text" name="website" style="display:none">
+                            <input data-key="form_name" class="question-input" name="name" required=""
+                                placeholder="Ваше ПІБ" type="text">
+                            <input data-key="form_number" class="question-input" name="phone" minlength="10" required=""
+                                placeholder="Номер телефону*" type="text">
+                            <input data-key="form_message" class="question-input" name="message"
+                                placeholder="Повідомлення" type="text">
+                            <p data-key="form_text">* Обов’язково має бути встановлений додаток WhatsApp за вказаним
+                                номером
+                                телефону</p>
+                            <button data-key="form_button" class="btn">Відправити</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer section-dark">
+        <div class="wrapper">
+            <a class="footer-logo" href="#"><img src="../img/logoW.svg" alt="logo"></a>
+            <div class="footer-box-links">
+                <a class="footer-link" href="#">Email</a>
+                <a class="footer-link footer-link2"  href="#">Whats App</a>
+            </div>
+            <a class="footer-policy" href="./policy.html">
+                Privacy Policy
+            </a>
+            <p class="footer-text">Copyright © 2026 All rights reserved.</p>
+            <a class="footer-arrow" href="#">
+                <svg width="15" height="21" viewBox="0 0 15 21" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M8.07112 0.292709C7.6806 -0.0978145 7.04743 -0.0978146 6.65691 0.292709L0.292946 6.65667C-0.097578 7.0472 -0.097578 7.68036 0.292946 8.07088C0.683471 8.46141 1.31664 8.46141 1.70716 8.07088L7.36401 2.41403L13.0209 8.07088C13.4114 8.46141 14.0446 8.46141 14.4351 8.07089C14.8256 7.68036 14.8256 7.0472 14.4351 6.65667L8.07112 0.292709ZM7.36401 20.0498L8.36401 20.0498L8.36401 0.999817L7.36401 0.999817L6.36401 0.999817L6.36401 20.0498L7.36401 20.0498Z"
+                        fill="currentColor" />
+                </svg>
+            </a>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
