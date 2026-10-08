@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      ІННОВАЦІЙНІ КОМПОЗИТНІ РІШЕННЯ, ЩО ФОРМУЮТЬ НОВІ СТАНДАРТИ ІНЖЕНЕРІЇ
+    </title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="overlay">
+        <form class="overlay-form ajax-form">
+            <svg class="close" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <rect y="1.6515" width="2.33557" height="42.0422" transform="rotate(-45 0 1.6515)"
+                    fill="currentColor" />
+                <rect x="1.65137" y="31.3798" width="2.33557" height="42.0422" transform="rotate(-135 1.65137 31.3798)"
+                    fill="currentColor" />
+            </svg>
+            <div class="overlay-form-communication d-none">
+                <h3 class="overlay-title title overlay-title-ask d-none" data-key="form_title1">Маєте питання?</h3>
+                <h3 class="overlay-title title overlay-title-order d-none" data-key="form_title2">Замовити послугу</h3>
+                <p class="overlay-title-sub" data-key="form_sub_title">Залиште Ваші контакти і ми зв’яжемось з Вами</p>
+                <div class="overlay-input-box">
+                    <input type="text" name="website" style="display:none">
+                    <input data-key="form_name" class="overlay-input" name="name" required="" placeholder="Ваше ПІБ"
+                        type="text">
+                    <input data-key="form_number" class="overlay-input" name="phone" minlength="10" required=""
+                        placeholder="Номер телефону*" type="text">
+                    <input data-key="form_message" class="overlay-input" name="message" placeholder="Повідомлення"
+                        type="text">
+                </div>
+                <p data-key="form_text" class="overlay-text">* Обов’язково має бути встановлений додаток WhatsApp за
+                    вказаним номером
+                    телефону</p>
+                <button data-key="form_button" class="btn send-btn">Відправити</button>
+            </div>
+
+            <div class="overlay-form-thanks d-none">
+                <h3 data-key="form_thanks" class="overlay-form-thanks-title title success">ДЯКУЄМО!</h3>
+                <h3 data-key="form_error" class="overlay-form-thanks-title title error-message thanks-error">На жаль,
+                    сталася помилка</h3>
+                <p data-key="form_success" class="overlay-form-thanks-text success">Ваші контакти успішно надіслано</p>
+                <p data-key="form_repeat" class="overlay-form-thanks-text error-message thanks-error">Спробуйте ще раз
+                </p>
+                <button class="btn thanks-btn">ок</button>
+            </div>
+
+        </form>
+    </div>
+    <header class="header">
+        <div class="header-box">
+            <div class="header-container">
+                <a href="/"><img class="header-logo" src="./img/logo.svg" alt="logo"></a>
+                <nav class="nav" id="nav">
+                    <div class="nav-box">
+                        <a class="nav-link" data-key="header_about" href="/#about">ПРО НАС</a>
+                        <a class="nav-link" data-key="header_services" href="/#services">ПОСЛУГИ</a>
+                        <a class="nav-link" data-key="header_stages" href="/#etaps">ЕТАПИ ВИРОБНИЦТВА</a>
+                        <a class="nav-link" data-key="header_contacts" href="/#contacts">КОНТАКТИ</a>
+                    </div>
+                    <div class="nav-mob-btns">
+
+                        <button class="lang-switch mob">
+                            <span class="label ua">UA</span>
+                            <span class="label en">EN</span>
+                            <span class="knob"></span>
+                        </button>
+                        <button data-key="header_btn" class="btn btn-header-m ask-question">ЗВ’ЯЗАТИСЯ З НАМИ</button>
+                    </div>
+                </nav>
+                <div class="burger" id="burger">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <button class="lang-switch desk">
+                <span class="label ua">UA</span>
+                <span class="label en">EN</span>
+                <span class="knob"></span>
+            </button>
+            <button data-key="header_btn" class="btn btn-header-d ask-question">ЗВ’ЯЗАТИСЯ З НАМИ</button>
+        </div>
+    </header>
+    <main>
+<section class="hero">
+    <div class="wrapper">
+        <div>
+            <h1 class="hero-title title" data-key="home_title">КОМПОЗИТНІ ВИРОБИ</h1>
+            <p data-key="home_sub_title" class="hero-text">ІННОВАЦІЙНІ КОМПОЗИТНІ РІШЕННЯ, ЩО ФОРМУЮТЬ НОВІ СТАНДАРТИ
+                ІНЖЕНЕРІЇ</p>
+        </div>
+        <button data-key="home_order" class="btn order-a-service">Замовити послугу</button>
+        <div class="cookie">
+            <p><span data-key="cookie_text">Ми використовуємо файли cookie для покращення користувацького досвіду.
+                    Продовжуючи перегляд, ви
+                    погоджуєтесь на
+                    використання файлів cookie.</span> <a data-key="cookie_learn" class="cookie-link accept-coocie"
+                    href="/policy">Докладніше</a></p>
+            <div class="cookie-btns">
+                <button class="btn accept-coocie" data-key="cookie_allow">Дозволити&nbsp;всі</button>
+                <button class="cookie-btn btn accept-coocie" data-key="cookie_reject">Відхилити&nbsp;всі</button>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="about" class="about section-light hero-bg-before">
+    <div class="wrapper">
+        <div class="about-box">
+            <div class="about-box-left">
+                <h2 data-key="header_about" class="about-title title">Про нас</h2>
+                <p data-key="about_text1">Ми — приватне виробничо-інженерне підприємство, що здійснює розробку
+                    та виготовлення композитних конструкцій для аерокосмічної галузі,
+                    безпілотних авіаційних систем, морських безпілотних платформ та
+                    спеціальних технічних застосувань.
+                </p>
+
+                <p data-key="about_text2" class="about-text">
+                    Підприємство реалізує повний виробничий цикл, що включає інженерне
+                    проєктування, розробку майстер-моделей, виготовлення матриць,
+                    формування композитних виробів, механічну обробку та складання готових
+                    конструкцій.
+                    Наявність власного конструкторського бюро забезпечує розробку виробів
+                    з нуля, адаптацію конструкцій під композитні технології та застосування
+                    reverse engineering для відтворення й оптимізації складної геометрії.
+                </p>
+            </div>
+            <div class="about-box-right">
+                <video poster="./img/equip_bg.jpg" autoplay muted loop playsinline webkit-playsinline preload="auto"
+                    disablepictureinpicture src="./video/about.mp4"></video>
+            </div>
+        </div>
+        <a data-key="about_button" class="about-btn" href="./pages/products.html">Наша продукція</a>
+    </div>
+</section>
+<section id="services" class="services section-dark">
+    <div class="wrapper">
+        <h2 data-key="header_services" class="services-title title">Послуги</h2>
+        <p data-key="services_title" class="services-title-sub">Ми пропонуємо наступний спектр послуг:</p>
+        <ul class="services-list">
+            <li class="services-item">
+                <img src="./img/item1.png" alt="logo plane">
+                <p class="services-item-text"><span data-key="services_item1">Виготовлення</span> <span
+                        class="services-item-text-span" data-key="services_sub_item1">майстер-моделей</span></p>
+            </li>
+            <li class="services-item">
+                <img src="./img/item2.svg" alt="logo materials">
+                <p class="services-item-text"><span data-key="services_item2">Виробництво</span> <span
+                        class="services-item-text-span" data-key="services_sub_item2">матриць з МДФ та композитних
+                        матеріалів</span>
+                </p>
+            </li>
+            <li class="services-item">
+                <img src="./img/item3.svg" alt="logo rocket">
+                <p class="services-item-text"><span data-key="services_item3">Формування виробів відповідно до</span>
+                    <span class="services-item-text-span" data-key="services_sub_item3">технічних вимог</span></p>
+            </li>
+            <li class="services-item">
+                <img src="./img/item4.svg" alt="logo drone">
+                <p class="services-item-text"><span data-key="services_item4">Складання вузлів згідно з кресленнями
+                        та</span> <span class="services-item-text-span" data-key="services_sub_item4">технічними
+                        стандартами</span></p>
+            </li>
+        </ul>
+        <button data-key="home_order" class="btn order-a-service">Замовити послугу</button>
+    </div>
+</section>
+<section class="equipment section-dark">
+    <div class="wrapper">
+        <h2 data-key="equipment" class="equipment-title title">Обладнання</h2>
+        <p data-key="equipment_title" class="equipment-title-sub">Ми працюємо на сучасному високоточному обладнанні, що
+            дозволяє
+            реалізовувати складні інженерні рішення з максимальною
+            точністю та якістю.</p>
+        <div class="equipment-box">
+            <ul class="equipment-list">
+                <li class="equipment-item item-arrow"><span data-key="equipment_item11">ЧПК верстати</span> <span
+                        data-key="equipment_item12" class="colored">4-координатні
+                        (фрезерні)</span></li>
+                <li class="equipment-item item-arrow"><span data-key="equipment_item21">ЧПК</span> <span
+                        data-key="equipment_item22" class="colored">оборобний верстат</span> <span
+                        data-key="equipment_item23">для пінополістирольних виробів (власного виробництва)</span></li>
+                <li class="equipment-item item-arrow"><span data-key="equipment_item21">ЧПК</span> <span
+                        data-key="equipment_item32" class="colored">лазерний верстат</span>
+                    <span data-key="equipment_item33">(власного виробництва)</span>
+                </li>
+                <li class="equipment-item item-arrow"><span data-key="equipment_item21">ЧПК</span> <span class="colored"
+                        data-key="equipment_item42">токарний верстат</span></li>
+                <li class="equipment-item item-arrow"><span data-key="equipment_item51">Спеціалізована</span> <span
+                        class="colored" data-key="equipment_item52">малярна камера</span> <span
+                        data-key="equipment_item53">для професійного фарбування виробів</span></li>
+                <li class="equipment-item item-arrow"><span data-key="equipment_item61" class="colored">3D сканер
+                    </span> <span data-key="equipment_item62">для високоточного
+                        моделювання</span></li>
+            </ul>
+            <div class="equipment-slider-box" data-slider>
+                <div class="equipment-slider data-slider" data-slider-track>
+                    <div class="equipment-slide slide1" data-slide></div>
+                    <div class="equipment-slide slide2" data-slide></div>
+                    <div class="equipment-slide slide3" data-slide></div>
+                    <div class="equipment-slide slide4" data-slide></div>
+                    <div class="equipment-slide slide5" data-slide></div>
+                </div>
+                <div class="btns-slider">
+                    <button class="btn-slider btn-slider-prev" data-slider-prev>
+                        <svg width="15" height="21" viewBox="0 0 15 21" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8.07112 0.292709C7.6806 -0.0978145 7.04743 -0.0978146 6.65691 0.292709L0.292946 6.65667C-0.097578 7.0472 -0.097578 7.68036 0.292946 8.07088C0.683471 8.46141 1.31664 8.46141 1.70716 8.07088L7.36401 2.41403L13.0209 8.07088C13.4114 8.46141 14.0446 8.46141 14.4351 8.07089C14.8256 7.68036 14.8256 7.0472 14.4351 6.65667L8.07112 0.292709ZM7.36401 20.0498L8.36401 20.0498L8.36401 0.999817L7.36401 0.999817L6.36401 0.999817L6.36401 20.0498L7.36401 20.0498Z"
+                                fill="currentColor" />
+                        </svg>
+                    </button>
+                    <button class="btn-slider btn-slider-next" data-slider-next>
+                        <svg width="15" height="21" viewBox="0 0 15 21" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8.07112 0.292709C7.6806 -0.0978145 7.04743 -0.0978146 6.65691 0.292709L0.292946 6.65667C-0.097578 7.0472 -0.097578 7.68036 0.292946 8.07088C0.683471 8.46141 1.31664 8.46141 1.70716 8.07088L7.36401 2.41403L13.0209 8.07088C13.4114 8.46141 14.0446 8.46141 14.4351 8.07089C14.8256 7.68036 14.8256 7.0472 14.4351 6.65667L8.07112 0.292709ZM7.36401 20.0498L8.36401 20.0498L8.36401 0.999817L7.36401 0.999817L6.36401 0.999817L6.36401 20.0498L7.36401 20.0498Z"
+                                fill="currentColor" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <a data-key="equipment_button" class="equipment-btn" href="./pages/equipment.html">Дізнатися більше</a>
+</section>
+<section id="etaps" class="etaps section-light">
+    <div class="wrapper">
+        <h2 data-key="header_stages" class="etaps-title title">Етапи виробництва</h2>
+        <div class="etaps-slider">
+            <div class="etaps-slide">
+                <div class="etaps-slide-media">
+                    <div class="etaps-slide-media-before"></div>
+                    <div class="etaps-slide-media-box">
+                        <h3 class="etaps-slide-num title">/01</h3>
+                        <h3 data-key="etaps_title1" class="etaps-slide-title title">Розробка 3D моделі</h3>
+                    </div>
+                    <video class="etaps-slide-video" autoplay muted loop playsinline webkit-playsinline preload="auto"
+                        disablepictureinpicture poster="./img/etaps/etap1.jpg" src="./video/etap1.mp4"></video>
+                </div>
+                <div class="etaps-slide-list-box">
+                    <ul class="etaps-slide-list">
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title11" class="etaps-slide-item-title">Аналіз технічного завдання</h5>
+                            <p data-key="etaps_text11">Після отримання технічного завдання наші конструктори детально
+                                аналізують вимоги
+                                проєкту
+                                та розпочинають створення
+                                цифрової 3Dмоделі майбутнього виробу</p>
+                        </li>
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title12" class="etaps-slide-item-title">3D-моделювання та цифрове
+                                проєктування</h5>
+                            <p data-key="etaps_text12">На основі отриманих даних створюється точна інженерна 3D-модель,
+                                що враховує всі
+                                технічні
+                                параметри, функціональні
+                                вимоги та побажання замовника.</p>
+                        </li>
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title13" class="etaps-slide-item-title">Використання 3D-сканування</h5>
+                            <p data-key="etaps_text13">Для максимальної точності ми застосовуємо сучасний 3D-сканер,
+                                який дозволяє
+                                відтворювати
+                                складні форми та інтегрувати їх
+                                у цифрову модель.</p>
+                        </li>
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title14" class="etaps-slide-item-title">Узгодження з замовником</h5>
+                            <p data-key="etaps_text14">Після завершення розробки 3D-моделі ми презентуємо її замовнику
+                                для погодження.
+                                Це
+                                важливий етап, який дозволяє оцінити
+                                результат та внести необхідні корективи.</p>
+                        </li>
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title15" class="etaps-slide-item-title">Оптимізація та підготовка до
+                                виробництва</h5>
+                            <p data-key="etaps_text15">За потреби наша команда оперативно адаптує модель, щоб вона
+                                повністю відповідала
+                                технічним вимогам і очікуванням
+                                клієнта.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="etaps-slide">
+                <div class="etaps-slide-media">
+                    <div class="etaps-slide-media-before"></div>
+                    <div class="etaps-slide-media-box">
+                        <h3 class="etaps-slide-num title">/02</h3>
+                        <h3 data-key="etaps_title2" class="etaps-slide-title title">Фрезерування моделі</h3>
+                    </div>
+                    <video class="etaps-slide-video" autoplay muted loop playsinline webkit-playsinline preload="auto"
+                        disablepictureinpicture poster="./img/etaps/etap2.jpg" src="./video/etap2.mp4"></video>
+                </div>
+                <div class="etaps-slide-list-box">
+                    <ul class="etaps-slide-list">
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title21" class="etaps-slide-item-title">Початок виготовлення
+                                майстер-моделі</h5>
+                            <p data-key="etaps_text21">Після погодження 3D-моделі на сучасному фрезерувальному верстаті
+                                з числовим
+                                програмним керуванням (ЧПК) ми виготовляємо
+                                майстер-модель або матрицю з високоякісного МДФ.</p>
+                        </li>
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title22" class="etaps-slide-item-title">ЧПК-фрезерування</h5>
+                            <p data-key="etaps_text22">Технологія ЧПК-фрезерування забезпечує високу точність обробки,
+                                стабільність
+                                параметрів та ідеальне відтворення
+                                геометрії кожної деталі відповідно до цифрової моделі.</p>
+                        </li>
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title23" class="etaps-slide-item-title">Шліфування</h5>
+                            <p data-key="etaps_text23">Після завершення фрезерування майстер-модель або матриця
+                                проходить етап
+                                ретельного
+                                шліфування та підготовки поверхні.</p>
+                        </li>
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title24" class="etaps-slide-item-title">Технічний контроль</h5>
+                            <p data-key="etaps_text24">Завершальним кроком є перевірка виробу відділом технічного
+                                контролю, що гарантує
+                                відповідність високим стандартам якості
+                                та точності.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="etaps-slide">
+                <div class="etaps-slide-media">
+                    <div class="etaps-slide-media-before"></div>
+                    <div class="etaps-slide-media-box">
+                        <h3 class="etaps-slide-num title">/03</h3>
+                        <h3 data-key="etaps_title3" class="etaps-slide-title title">Полімеризація</h3>
+                    </div>
+                    <video class="etaps-slide-video" autoplay muted loop playsinline webkit-playsinline preload="auto"
+                        disablepictureinpicture poster="./img/etaps/etap3.jpg" src="./video/etap3.mp4"></video>
+                </div>
+                <div class="etaps-slide-list-box">
+                    <ul class="etaps-slide-list">
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title31" class="etaps-slide-item-title">Початок полімеризації</h5>
+                            <p data-key="etaps_text31">Після шліфування та підготовки майстер-модель або матриця
+                                переходить до етапу
+                                просочування спеціальною полімерною
+                                смолою.</p>
+                        </li>
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title32" class="etaps-slide-item-title">Особливості процесу</h5>
+                            <p data-key="etaps_text32">За допомогою валиків смола рівномірно наноситься на поверхню,
+                                забезпечуючи повне
+                                та
+                                рівномірне насичення матеріалу.
+                                Такий процес дозволяє підвищити міцність, стабільність форми та довговічність
+                                виробу.</p>
+                        </li>
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title33" class="etaps-slide-item-title">Завершення полімеризації</h5>
+                            <p data-key="etaps_text33">Після нанесення смоли майстер-модель / матриця поміщується до
+                                спеціальної печі
+                                для
+                                полімеризації. У процесі
+                                полімеризації матеріал набуває остаточної міцності та готовності до наступних
+                                виробничих етапів.</p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="etaps-slide">
+                <div class="etaps-slide-media">
+                    <div class="etaps-slide-media-before"></div>
+                    <div class="etaps-slide-media-box">
+                        <h3 class="etaps-slide-num title">/04</h3>
+                        <h3 data-key="etaps_title4" class="etaps-slide-title title">Покриття ґрунтом та лаком</h3>
+                    </div>
+                    <video class="etaps-slide-video" autoplay muted loop playsinline webkit-playsinline preload="auto"
+                        disablepictureinpicture poster="./img/etaps/etap4.jpg" src="./video/etap4.mp4"></video>
+                </div>
+                <div class="etaps-slide-list-box">
+                    <ul class="etaps-slide-list">
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title41" class="etaps-slide-item-title">Фінішна обробка</h5>
+                            <p data-key="etaps_text41">Після завершення полімеризації модель переходить до етапу
+                                фінішної обробки.</p>
+                        </li>
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title42" class="etaps-slide-item-title">Лакування</h5>
+                            <p data-key="etaps_text42">Далі поверхня покривається спеціальним лаком, що забезпечує
+                                гладкість, захист та
+                                можливість легкого відділення
+                                майстер-моделі або виробу.</p>
+                        </li>
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title43" class="etaps-slide-item-title">Шліфування та полірування</h5>
+                            <p data-key="etaps_text43">Після нанесення покриття поверхня проходить етап шліфування та
+                                полірування для
+                                досягнення максимальної точності та
+                                ідеальної якості.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="etaps-slide">
+                <div class="etaps-slide-media">
+                    <div class="etaps-slide-media-before"></div>
+                    <div class="etaps-slide-media-box">
+                        <h3 class="etaps-slide-num title">/05</h3>
+                        <h3 data-key="etaps_title5" class="etaps-slide-title title">Збірка</h3>
+                    </div>
+                    <div class="box-img">
+
+                        <img src="./img/etaps/etap5.jpg" alt="спеціаліст працює">
+                    </div>
+                </div>
+                <div class="etaps-slide-list-box">
+                    <ul class="etaps-slide-list">
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title51" class="etaps-slide-item-title">Етап складання</h5>
+                            <p data-key="etaps_text51">У разі виготовлення композитних матриць (зокрема гелькоутних)
+                                майстер-модель
+                                переходить до етапу складання.</p>
+                        </li>
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title52" class="etaps-slide-item-title">Формування матриці</h5>
+                            <p data-key="etaps_text52">Досвідчені спеціалісти виконують монтаж необхідних елементів та
+                                формують
+                                конструкцію
+                                майбутньої матриці.</p>
+                        </li>
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title53" class="etaps-slide-item-title">Увага до деталей</h5>
+                            <p data-key="etaps_text53">Особлива увага приділяється точності збірки та відповідності
+                                конструкції
+                                технічним
+                                вимогам.</p>
+                        </li>
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title54" class="etaps-slide-item-title">Завершення збірки</h5>
+                            <p data-key="etaps_text54">Після завершення збірки майстер-модель передається на наступний
+                                етап — формування
+                                композитної матриці.</p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="etaps-slide">
+                <div class="etaps-slide-media">
+                    <div class="etaps-slide-media-before"></div>
+                    <div class="etaps-slide-media-box">
+                        <h3 class="etaps-slide-num title">/06</h3>
+                        <h3 data-key="etaps_title6" class="etaps-slide-title title">Формування матриці</h3>
+                    </div>
+                    <div class="box-img">
+                        <img src="./img/etaps/etap6.jpg" alt="спеціаліст працює">
+                    </div>
+                </div>
+                <div class="etaps-slide-list-box">
+                    <ul class="etaps-slide-list">
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title61" class="etaps-slide-item-title">Нанесення гелькоуту</h5>
+                            <p data-key="etaps_text61">Першим етапом формування є нанесення шару гелькоуту на
+                                майстер-модель за
+                                допомогою
+                                професійного пульверизатора. Гелькоут
+                                формує ідеально гладку та точну поверхню майбутнього виробу.</p>
+                        </li>
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title62" class="etaps-slide-item-title">Укладання армувальних тканин
+                            </h5>
+                            <p data-key="etaps_text62">Далі виконується пошарове укладання армувальних тканин з
+                                нанесенням смоли для
+                                забезпечення міцності та стабільності
+                                конструкції.</p>
+                        </li>
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title63" class="etaps-slide-item-title">Перехід до фінальної стадії
+                                виробництва</h5>
+                            <p data-key="etaps_text63">Після цього матриця проходить процес полімеризації та переходить
+                                до фінальної
+                                стадії
+                                виробництва.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="etaps-slide">
+                <div class="etaps-slide-media">
+                    <div class="etaps-slide-media-before"></div>
+                    <div class="etaps-slide-media-box">
+                        <h3 class="etaps-slide-num title">/07</h3>
+                        <h3 data-key="etaps_title7" class="etaps-slide-title title">Діагностично- підготовчий етап</h3>
+                    </div>
+                    <div class="box-img">
+
+                        <img src="./img/etaps/etap7.jpg" alt="модель виробу">
+                    </div>
+                </div>
+                <div class="etaps-slide-list-box">
+                    <ul class="etaps-slide-list">
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title71" class="etaps-slide-item-title">Перевірка виробу</h5>
+                            <p data-key="etaps_text71">На цьому етапі виконується перевірка геометричних розмірів та
+                                поверхні виробу на
+                                наявність можливих прихованих дефектів,
+                                відповідність кресленням та технічній документації.</p>
+                        </li>
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title72" class="etaps-slide-item-title">Шліфування та полірування</h5>
+                            <p data-key="etaps_text72">Далі поверхня доводиться до ідеального стану шляхом шліфування та
+                                полірування. За
+                                необхідності наноситься спеціальне
+                                захисне покриття для подальшого використання.</p>
+                        </li>
+                        <li class="item-arrow etaps-slide-item">
+                            <h5 data-key="etaps_title73" class="etaps-slide-item-title">Завершення контролю якості</h5>
+                            <p data-key="etaps_text73">Після завершення контролю якості виріб передається на виробництво
+                                композитних
+                                матеріалів. Надалі він використовується як
+                                основа для серійного виготовлення продукції.</p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="etaps-progress-box">
+            <div class="etaps-progress"></div>
+        </div>
+    </div>
+</section>
+<section id="contacts" class="question section-dark">
+    <div class="wrapper">
+        <div class="question-box">
+            <img src="./img/question_bg.png" alt="mold for making a drone">
+            <div>
+                <h2 class="question-title title" data-key="form_title1">Маєте питання?</h2>
+                <p class="question-title-sub" data-key="form_sub_title">Залиште Ваші контакти і ми зв’яжемось з Вами</p>
+                <form class="question-form ajax-form">
+                    <input data-key="form_website" type="text" name="website" style="display:none">
+                    <input data-key="form_name" class="question-input" name="name" required="" placeholder="Ваше ПІБ"
+                        type="text">
+                    <input data-key="form_number" class="question-input" name="phone" minlength="10" required=""
+                        placeholder="Номер телефону*" type="text">
+                    <input data-key="form_message" class="question-input" name="message" placeholder="Повідомлення"
+                        type="text">
+                    <p data-key="form_text">* Обов’язково має бути встановлений додаток WhatsApp за вказаним номером
+                        телефону</p>
+                    <button data-key="form_button" class="btn">Відправити</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+    <footer class="footer section-dark">
+        <div class="wrapper">
+            <a class="footer-logo" href="#"><img src="./img/logoW.svg" alt="logo"></a>
+            <div class="footer-box-links">
+                <a class="footer-link" href="#">Email</a>
+                <a class="footer-link footer-link2"  href="#">Whats App</a>
+            </div>
+            <a class="footer-policy" href="./pages/policy.html">
+                Privacy Policy
+            </a>
+            <p class="footer-text">Copyright © 2026 All rights reserved.</p>
+            <a class="footer-arrow" href="#">
+                <svg width="15" height="21" viewBox="0 0 15 21" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M8.07112 0.292709C7.6806 -0.0978145 7.04743 -0.0978146 6.65691 0.292709L0.292946 6.65667C-0.097578 7.0472 -0.097578 7.68036 0.292946 8.07088C0.683471 8.46141 1.31664 8.46141 1.70716 8.07088L7.36401 2.41403L13.0209 8.07088C13.4114 8.46141 14.0446 8.46141 14.4351 8.07089C14.8256 7.68036 14.8256 7.0472 14.4351 6.65667L8.07112 0.292709ZM7.36401 20.0498L8.36401 20.0498L8.36401 0.999817L7.36401 0.999817L6.36401 0.999817L6.36401 20.0498L7.36401 20.0498Z"
+                        fill="currentColor" />
+                </svg>
+            </a>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
